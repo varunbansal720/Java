@@ -1,0 +1,20 @@
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class JavaApplication1 {
+
+    static public void main(String[] args) {
+       int a,d,y;
+       System.out.println("Enter the number of minutes-");
+       Scanner s= new Scanner(System.in);
+       a= s.nextInt();
+       y=a/(365*24*60);
+       d=(a%(365*24*60))/(24*60);
+       System.out.println(a +" minutes is equal to "+y+" years and "+ d+" days");
+
+        
+        }
+    
+     
+}
